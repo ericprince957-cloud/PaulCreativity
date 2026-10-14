@@ -39,10 +39,13 @@ function App() {
             <a
               href="#home"
               onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}
-              className="text-2xl md:text-3xl font-bold tracking-tight"
+              className="flex items-center"
             >
-              <span className="text-white">Paul</span>
-              <span className="text-[#D4AF37]">Creativity</span>
+              <img
+                src="https://i.supaimg.com/9dc6f57b-5162-43a8-b5c4-fe09a230e15b/db49a2a1-d96e-4dad-8bfe-e294c4f93d86.jpg"
+                alt="PaulCreativity Logo"
+                className="h-10 md:h-14 w-auto object-contain"
+              />
             </a>
 
             {/* Desktop Navigation */}
@@ -535,9 +538,12 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             {/* Logo */}
-            <div className="text-2xl font-bold">
-              <span className="text-white">Paul</span>
-              <span className="text-[#D4AF37]">Creativity</span>
+            <div>
+              <img
+                src="https://i.supaimg.com/9dc6f57b-5162-43a8-b5c4-fe09a230e15b/db49a2a1-d96e-4dad-8bfe-e294c4f93d86.jpg"
+                alt="PaulCreativity Logo"
+                className="h-12 w-auto object-contain"
+              />
             </div>
 
             {/* Copyright */}
